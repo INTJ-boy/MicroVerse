@@ -2,7 +2,7 @@
 
 *"THE INVISIBLE WORLD IS NOT EMPTY."*
 
-![MICROVERSE banner](assets/og-image.png
+![MicroVerse banner](assets/og-image.png) 
 
 
 A free, non-profit interactive microbiology exploration platform - 12 microbial worlds, 250 real organisms, and dozens of hands-on lab and reasoning modules, built as a genuine teaching tool rather than a trivia site. No lorem-ipsum content, no invented citations, no fabricated scientific claims. Created independently by Zekraoui Rabah AllaaEddine as an educational project.
