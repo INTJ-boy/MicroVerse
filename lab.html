@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MICROVERSE 🦑 · Virtual Laboratory</title>
+<meta name="description" content="Simulated microscopy, culture, biochemical testing, molecular biology and environmental sampling modules.">
+<meta property="og:title" content="MICROVERSE 🦑 · Virtual Laboratory">
+<meta property="og:description" content="Simulated microscopy, culture, biochemical testing, molecular biology and environmental sampling modules.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="container topnav-inner">
+    <a href="#/" class="brand">
+      <svg class="squid-mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="24" cy="18" r="16" fill="#2ddccb"/>
+        <rect x="10.9" y="25.1" width="6" height="14.1" rx="3" fill="#2ddccb"/>
+        <rect x="17.8" y="25.1" width="5.3" height="20.9" rx="2.65" fill="#2ddccb"/>
+        <rect x="24.9" y="25.1" width="5.3" height="20.9" rx="2.65" fill="#2ddccb"/>
+        <rect x="31.1" y="25.1" width="6" height="14.1" rx="3" fill="#2ddccb"/>
+        <circle cx="17.3" cy="18" r="3.6" fill="#04211d"/>
+        <circle cx="30.7" cy="18" r="3.6" fill="#04211d"/>
+      </svg>
+      <span>MICROVERSE<small id="brandTagline"></small></span>
+    </a>
+    <div class="nav-links" id="navLinks"></div>
+    <div class="nav-tools">
+      <div class="lang-switch" id="langSwitch"></div>
+      <div class="nav-search" id="navSearch">
+        <input type="text" id="navSearchInput" autocomplete="off">
+      </div>
+      <div class="nav-search-dropdown" id="navSearchDropdown"></div>
+      <button class="icon-btn" id="searchToggle" aria-label="Search">🔍</button>
+      <button class="icon-btn mobile-nav-toggle" id="mobileNavToggle" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-drawer" id="mobileDrawer"></div>
+
+<main class="container" id="view"></main>
+
+<div id="pageLoader" aria-hidden="true">
+  <div class="loader-trail"></div>
+  <svg class="loader-squid" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="24" cy="18" r="16" fill="#2ddccb"/>
+        <rect x="10.9" y="25.1" width="6" height="14.1" rx="3" fill="#2ddccb"/>
+        <rect x="17.8" y="25.1" width="5.3" height="20.9" rx="2.65" fill="#2ddccb"/>
+        <rect x="24.9" y="25.1" width="5.3" height="20.9" rx="2.65" fill="#2ddccb"/>
+        <rect x="31.1" y="25.1" width="6" height="14.1" rx="3" fill="#2ddccb"/>
+        <circle cx="17.3" cy="18" r="3.6" fill="#04211d"/>
+        <circle cx="30.7" cy="18" r="3.6" fill="#04211d"/>
+  </svg>
+</div>
+
+<div id="toastHost"></div>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid" id="footerGrid"></div>
+    <div class="footer-bottom">
+      <span id="footerCopy">© 2026 Zekraoui Rabah AllaaEddine 🦑. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/data/translations.js"></script>
+<script src="js/data/worlds.js"></script>
+<script src="js/data/spaces.js"></script>
+<script src="js/data/species-bacteria.js"></script>
+<script src="js/data/species-fungi.js"></script>
+<script src="js/data/species-protozoa.js"></script>
+<script src="js/data/species-virus.js"></script>
+<script src="js/data/species-algae.js"></script>
+<script src="js/data/scenarios.js"></script>
+<script src="js/data/myths.js"></script>
+<script src="js/data/glossary.js"></script>
+<script src="js/data/references.js"></script>
+<script src="js/data/other-sites.js"></script>
+<script src="js/data/decision-trees.js"></script>
+<script src="js/data/investigations.js"></script>
+<script src="js/data/domino.js"></script>
+<script src="js/modules/engine.js"></script>
+<script src="js/modules/progress.js"></script>
+<script src="js/modules/lab.js"></script>
+<script src="js/modules/interactive.js"></script>
+<script>if(!location.hash || location.hash === "#/") location.hash = "#/lab";</script>
+<script src="js/app.js"></script>
+</body>
+</html>
