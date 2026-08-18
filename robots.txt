@@ -1,6 +1,3 @@
 User-agent: *
 Allow: /
-Disallow: /404.html
-Disallow: /support.html
-
 Sitemap: https://intj-boy.github.io/MicroVerse/sitemap.xml
