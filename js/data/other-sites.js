@@ -15,10 +15,10 @@ window.MV = window.MV || {}; MV.data = MV.data || {};
        desc:{en:"A short description.",fr:"Une courte description."} }
    ============================================================ */
 MV.data.otherSites = [
-  { id:1, name:"Labprepdz", url:"https://intj-boy.github.io/LabPrepDz/, desc:null },
-  { id:2, name:"ExpoShare", url:"https://intj-boy.github.io/ExpoShare/", desc:null },
-  { id:3, name:"MicroLab Pro", url:"https://intj-boy.github.io/MicroLabPro/", desc:null },
-  { id:4, name:" MicroOdyssey", url:"https://intj-boy.github.io/MicroOdyssey/", desc:null },
+  { id:1, name:{en:"Labprepdz",fr:"Labprepdz",ar:"Labprepdz"}, url:"https://intj-boy.github.io/LabPrepDz/", desc:null },
+  { id:2, name:{en:"ExpoShare",fr:"ExpoShare"}, url:"https://intj-boy.github.io/ExpoShare/", desc:null },
+  { id:3, name:{en:"MicroLab Pro",fr:"MicroLab Pro"}, url:"https://intj-boy.github.io/MicroLabPro/", desc:null },
+  { id:4, name:{en:"MicroOdyssey",fr:"MicroOdyssey"}, url:"https://intj-boy.github.io/MicroOdyssey/", desc:null },
   { id:5, name:null, url:null, desc:null },
   { id:6, name:null, url:null, desc:null },
   { id:7, name:null, url:null, desc:null }
